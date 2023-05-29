@@ -1,4 +1,7 @@
 .vscode
 *.sql
+.DS_Store
 
 venv
+
+dbstruct

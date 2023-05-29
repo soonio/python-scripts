@@ -14,3 +14,13 @@ pip freeze > requirements.txt
 
 pip install -r requirements.txt
 ```
+
+## 把 db-struct.py 打包成可执行文件
+
+```bash
+pip install pyinstaller
+
+pyinstaller -w -F dbstruct.py && mv dist/dbstruct . && rm -rf dist build dbstruct.spec
+
+./dbstruct --env=IO --db=octopus --table=user
+```
