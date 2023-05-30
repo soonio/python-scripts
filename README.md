@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```bash
 pip install pyinstaller
 
-pyinstaller -w -F dbstruct.py && mv dist/dbstruct . && rm -rf dist build dbstruct.spec
+pyinstaller -w -F dbstruct.py && mv dist/dbstruct /usr/local/bin/dbstruct && rm -rf dist build dbstruct.spec
 
 ./dbstruct --env=IO --db=octopus --table=user
 ```
