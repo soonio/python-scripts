@@ -2,7 +2,8 @@ import time
 import xlrd
 
 # 读取xlsx文件
-wb = xlrd.open_workbook('/Users/qingliu/Desktop/1.xlsx')
+# wb = xlrd.open_workbook('/Users/qingliu/Desktop/1.xlsx')
+wb = xlrd.open_workbook('/Users/qingliu/Desktop/批量评论0605.xls')
 # 获取工作表
 sheet = wb.sheet_by_name('Sheet1')
 # 获取单元格数据

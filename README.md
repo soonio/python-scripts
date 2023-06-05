@@ -1,3 +1,5 @@
+# scripts
+
 ## 环境
 
 ```bash
